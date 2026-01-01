@@ -22,7 +22,6 @@ public class Node implements Comparable<Node>{
             return fre;
         }
         return Integer.compare(this.character, that.character);
-
     }
     public String toString(){
         String str = ""+character;
